@@ -1,21 +1,14 @@
-#include <iostream>
-using namespace std;
-int main()
-{
-for(int i=1; i<=30;i++){
-  if(i%2==0){
-      for(int j=1;j<=5; j++){
-          cout<<1<<" ";
-      }
-  }
-  if(i%2==1){
-      for(int j=1;j<=i;j++){
-          cout<<j<<" ";
-      }
-  }
-    cout<<endl;
-}
+package com.company;
+import java.util.Scanner;
 
-	return 0;
-
+public class Main {
+    public static void main(String[] args) {
+  Scanner calculate=new Scanner(System.in);
+  System.out.println("Your weight:");
+  float w=calculate.nextInt();
+  System.out.println("Your height(in meters):");
+  float h=calculate.nextInt();
+  float bmi=(w/(h*h));
+  System.out.println("Your body mass index:"+bmi);
+    }
 }
