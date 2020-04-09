@@ -1,7 +1,7 @@
 
 /*package com.company;
 
-public class Main {
+public class DateTest {
     public static void main(String[] args) {
         Date firstDate = new Date(25, 02, 2015);
         Date secondDate = new Date(23, 07, 2019);
