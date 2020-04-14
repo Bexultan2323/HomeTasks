@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Print show=new Print();
-        System.out.println(show.overall_income());
+        System.out.println(show.overall_income()+" "+show.Fname);
 
     }
 
@@ -26,7 +26,7 @@ public class Main {
     }
 }
 
-class Print{
+class Print extends Employee{
     public double overall=1000000;
     public double overall_income(){
         return overall;
